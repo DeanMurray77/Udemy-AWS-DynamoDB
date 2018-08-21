@@ -59,3 +59,22 @@ typings/
 
 # next.js build output
 .next
+
+#My default stuff that needs to be included
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+.idea
+.idea/
+.idea/workspace.xml
+
+# environment variables
+env*.yml
